@@ -1,0 +1,49 @@
+
+.tabContainer{
+	display: block;
+	margin-top: 3%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	width: 80%;
+	height:50vw;
+	border: 10px black ;
+	box-shadow: 7px 35px 5px 10px gray;
+}
+.tabContainer .buttonContainer{
+	position: relative;
+	height: 8%;
+	width: 99.5%;
+
+}
+.tabContainer .buttonContainer button{
+	position: relative;
+	float: left;
+	width: 33.3333%;
+	height: 100%;
+	cursor:pointer;
+	font-family: sans-serif;
+	font-size: 2vw;
+	background-color:navy;
+	color: white;
+}
+.buttonContainer button:hover{
+	background-color:silver;	
+}
+.tabPanel{
+	height: 85%;
+	background-color: gray;
+	color: white;
+	text-align: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: large;
+	display:none;
+}
+#loads
+{
+	position: relative;
+	height: 100%;
+	background-color:silver;
+	padding: 5px;
+}

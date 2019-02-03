@@ -1,0 +1,48 @@
+#slideshow {
+  margin: 5% auto;
+  position: relative;
+  width: 85%;
+  height: 300px;
+  padding: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+  object-fit: contain;
+}
+
+.mySlides
+{
+  height: 100%;
+  width: 100%;
+}
+
+img
+{
+  width: 100%;
+  height: 100%;
+}
+
+#nav
+{
+  
+}
+
+.button {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 5%;
+}
+
+.button:hover {background-color:black;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}

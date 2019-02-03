@@ -1,0 +1,72 @@
+body
+{
+  background-color: #f2f2f2;
+}
+h1 {
+  text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+  margin-top: 3%; 
+}
+
+table
+{
+ width: 80%;
+ border:2px solid;
+ margin-left: 10%;
+ margin-right:10%;
+}
+ th, td {
+     font-style: oblique;
+      font-size:17;
+      padding: 2.5px;
+      text-align: center;
+      border:1.5px solid;
+}
+      
+.button {
+  padding: 10px 10px;
+  font-size: large;
+  text-align: center;
+  outline: none;
+  color: #fff;
+  background-color: #65cbf7;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color:black;}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+#search {
+  background-color: white;
+  padding: 6px 6px;
+  height: 3vw;
+  width: 30%;
+  font-size: 14px;
+  outline: none;
+  border: 2px inset red;
+  border-radius: 15px;
+}
+
+#tabl
+{
+  margin-top: 3%;
+
+}
